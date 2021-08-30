@@ -25,7 +25,7 @@ const App = () => {
 
   const createCandidate = async (candidate) => {
     try {
-      const user = await axios.post('https://jobsnet-gamaacademy.herokuapp.com/register', form);
+      const user = await axios.post('https://jobsnet-gamaacademy.herokuapp.com/', form);
       if (user.status === 200) {
         alert('Cadastro Realizado com Sucesso!')
       } 
