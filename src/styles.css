@@ -1,0 +1,56 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(112, 90, 173); */
+    /* background-color: #7C5E99; */
+
+    /* background: #12c2e9;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+
+    background-color: #f1f0ff;
+    font-family: 'Poppins', sans-serif;
+
+
+    /* background: #a8c0ff;  
+    background: -webkit-linear-gradient(to right, #3f2b96, #a8c0ff);  
+    background: linear-gradient(to right, #3f2b96, #a8c0ff);  */
+}
+
+.imgLogo {
+    height: 4rem;
+    margin-left: 0;
+}
+
+.imgJobs {
+    width: 550px;
+    height: 360px;
+    /* padding: 15px 15px 15px 15px; */
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px; 
+}
+
+    
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.principal {
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
